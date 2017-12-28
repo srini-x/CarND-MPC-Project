@@ -38,13 +38,13 @@ size_t delta_start = epsi_start + N;
 size_t a_start = delta_start + N - 1;
 
 // Weights
-const double cte_w = 1.0;  // 500;
-const double epsi_w = 1.0;  // 500;
+const double cte_w = 1.0;
+const double epsi_w = 1.0;
 const double v_w = 1.0;
-const double delta_w = 1.0;  // 5.0;
-const double a_w = 1.0;  // 5.0;
-const double delta_diff_w = 500.0;  // 500.0;
-const double a_diff_w = 1.0;  // 25.0;
+const double delta_w = 1.0;
+const double a_w = 1.0;
+const double delta_diff_w = 500.0;
+const double a_diff_w = 1.0;
 
 
 class FG_eval {
